@@ -1,0 +1,87 @@
+#app {
+    padding: 0 40px;
+}
+.messageWrapper {
+    padding-top: 20px;
+}
+.messageWrapLeft {
+    border-right: 2px solid #ccc;
+    overflow: auto;
+}
+.messageWrapLeft .messageItem{
+    padding:3px 0;
+}
+.messageWrapLeft .creatime {
+    color: #888;
+    line-height:30px;
+}
+.messageWrapLeft h5 {
+    font-weight: bold;
+    height: 30px;
+    width:300px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.messageWrapLeft .templateType {
+    padding: 0 5px;
+   
+    color: #fff;
+    margin-top: 0px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 10px;
+    border-radius: 4px;
+}
+.messageWrapLeft .wechatType {
+    background: var(--green-light);
+}
+.messageWrapLeft .smsType {
+    background: var(--main-l);
+}
+.messageNode {
+    font-weight:bold;
+}
+.messageItemWrap {
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1);
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.messageItemWrapSelected {
+    background: #ebebeb;
+}
+.noData {
+    color: #a5a2a2;
+}
+#templateDetail {
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1);
+    padding: 29px;
+    background: #f9f9f9;
+}
+.messageWrapRight .noData {
+    font-size: 20px;
+    text-align: center;
+    padding: 40%;
+}
+.keyWrap {
+    border: 1px solid #efefef;
+    padding: 10px;
+}
+.keyWrap li {
+    padding: 3px 6px;
+    background: var(--main-h);
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #fff;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+.contentNotice {
+    color: var(--warn-h);
+    padding:10px 0;
+}
+.wxTempWrap {
+    border: 1px solid #efefef;
+    padding: 10px 20px;
+}

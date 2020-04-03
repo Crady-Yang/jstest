@@ -1,0 +1,15 @@
+/*.k-filter-menu.k-popup.k-group.k-reset.k-state-border-up{*/
+  /*font-weight: inherit !important;*/
+  /*font-size: 1.0rem !important;*/
+  /*width: 100%;*/
+  /*padding: 10px;*/
+/*}*/
+.k-filter-menu.k-popup.k-group.k-reset.k-state-border-down{
+  font-weight: inherit !important;
+  font-size: 1.0rem !important;
+  /*width: 100%;*/
+  /*padding: 10px;*/
+}
+.k-filter-menu-container>.k-action-buttons>.k-button{
+  margin: 0px;
+}

@@ -1,0 +1,90 @@
+.staticPart{
+    padding-left:1rem;
+}
+.staticPart .pull-left {
+    margin-right: 30px;
+}
+.staticPart .written {
+    color: var(--primary);
+}
+.staticPart .face {
+    color: var(--warn-m);
+}
+.staticPart .arrangement {
+    color: var(--success-h);
+}
+.content_footer {
+    text-align: center;
+    /*margin:20px;*/
+    position: fixed;
+    bottom: 0;
+    /*border-top: 2px solid #95a3eb;*/
+    padding: 10px 0;
+    background: #fff;
+    z-index:10000
+}
+.candidatePart{
+    margin-bottom:50px;
+}
+.selectedWrap dd, .selectedWrap dt{
+    text-align: center;
+}
+.selectedWrap dd span{
+    height:30px;
+    line-height:30px;
+}
+.selectedWrap dd button{
+    height:30px;
+}
+.selectedWrap .action{
+    text-align:left;
+}
+.remarkWrap{
+    position:relative;
+}
+.remarkInput{
+    position:absolute;
+    width:100%;
+    left:0px;
+    top:0px;
+    display:none;
+}
+.lw-form .innerWrapper > label {
+    display: inline-block;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.lw-form .innerWrapper > .form-control {
+    display: inline-block;
+    width: 200px;
+}
+
+.lw-form .innerWrapper {
+    padding: 10px;
+}
+.searchPart{
+    padding:20px;
+    margin-top:20px;
+}
+.candidatePart{
+    padding:20px 15px;
+}
+    .candidatePart p{
+        padding-bottom:20px;
+    }
+    .staticPart {
+        padding: 15px;
+    }
+.notice {
+    color: var(--warn-h)
+}
+.groupHeaderItem {
+    padding: 10px 15px;
+}
+.k-grid .k-grouping-row {
+    background-color: #efefef;
+}
+.groupHeader{
+    width:97%;
+}

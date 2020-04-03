@@ -1,0 +1,30 @@
+.k-widget{
+  min-font-size: 12px;
+  font-size:0.8rem;
+}
+.k-autocomplete, .k-dateinput-wrap, .k-dropdown-wrap, .k-multiselect-wrap, .k-numeric-wrap, .k-picker-wrap{
+  font-size: inherit;
+}
+.k-checkbox:checked+.k-checkbox-label:before{
+  font-size: 10px;
+  font-weight: 200;
+}
+.k-checkbox-label::before, .k-radio-label::before{
+  width: 1rem;
+  height: 1rem;
+  border-width: 1px;
+}
+.k-checkbox-label::after{
+  width: 1rem;
+  height: 1rem;
+}
+.k-multiselect-wrap .k-button .k-select .k-icon{
+  padding-right: 8px;
+  padding-left: 2px;
+}
+.k-multiselect-wrap li span{
+  margin-right: 1.8em;
+}
+.k-dropdown-wrap .k-select, .k-numeric-wrap .k-select, .k-picker-wrap .k-select{
+  line-height: inherit;
+}

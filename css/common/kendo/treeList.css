@@ -1,0 +1,10 @@
+.k-grid td .k-i-none{
+  display: inline;
+}
+.k-treelist-group>td>div{
+  display: inline-block;
+}
+
+td .k-i-collapse, td .k-i-expand{
+  margin-top:0px;
+}

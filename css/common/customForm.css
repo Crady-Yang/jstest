@@ -1,0 +1,122 @@
+.lw-form input,textarea{
+  width: 100%;
+  min-width: 200px;
+  border:none;
+  border-bottom: 1px solid #efefef;
+  background-color: rgba(0,0,0,0);
+  font-size: 1.0rem !important;
+  color: var(--main-h) !important;
+  font-weight: 400;
+  height: 2rem;
+  outline: none;
+  line-height: 2rem;
+}
+.lw-form input:focus{
+  border: none;
+  /*border-bottom: 1px solid var(--main-l);*/
+  outline: none;
+  box-shadow: 0px 4px 4px 0px rgba(41,98,255, 0.05);
+}
+
+.lw-form input:hover{
+  border: none;
+  /*border-bottom: 1px solid var(--main-l);*/
+  outline: none;
+  box-shadow: 0px 4px 4px 0px rgba(41,98,255, 0.05);
+}
+
+.lw-form .errorMessage{
+  color: var(--error-h);
+  font-size: 10px;
+  font-weight: 200;
+  padding-top: 4px;
+  display: block;
+}
+.k-widget .errorMessage{
+  /*position: absolute;*/
+  /*bottom: -20px;*/
+}
+
+.lw-form input.errorInput{
+  border-color: var(--error-m);
+  color: var(--error-h) !important;
+}
+.lw-form input.errorInput:focus{
+  box-shadow: 0px 4px 4px 0px rgba(197, 12, 12, 0.05);
+}
+.lw-form button:disabled{
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.lw-form button{
+  cursor: pointer;
+  text-align: center;
+  font-size: 12px;
+  background-color: var(--error-h);
+  color: #fff;
+  border:0px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(197, 12, 12, 0.3);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(197, 12, 12, 0.3);
+  box-shadow: 0px 0px 20px 0px rgba(197, 12, 12, 0.3);
+}
+.lw-form input[placeholder], [placeholder], *[placeholder] {
+  /*color: rgba(255,255,255,0.5) !important;*/
+}
+.lw-form .title{
+  padding-top: 20px;
+  font-weight: 200;
+  height: 100px !important;
+}
+.lw-form .title p{
+  margin: 0px;
+}
+.lw-form .title .main{
+  font-size: 14px;
+}
+.lw-form .title .sub{
+  font-size: 2em;
+  font-weight: 400;
+}
+.lw-form label{
+  display: block;
+}
+.lw-form label.required::after{
+  content: '*';
+  color: var(--error-h);
+  padding-left: 4px;
+}
+.lw-form .form-item-wrapper{
+  margin: 1rem 0rem;
+}
+.lw-form .form-item{
+  margin: 1rem 0rem;
+}
+.lw-form .errorSpan{
+  color: var(--error-h);
+}
+.lw-form textarea{
+  resize: none;
+  height: 4rem;
+}
+
+.lw-form.inlineForm label{
+  display: inline-block;
+  vertical-align: bottom;
+}
+.lw-form.inlineForm .form-input{
+  margin-left: 10px;
+  display: inline-block;
+}
+.k-filter-menu-container .k-datetimepicker .k-link{
+  padding: 0!important;
+}
+/*a:hover{
+  color:#fff;
+}*/
+
+.imageWrap img{
+  width: 160px;
+  height: 160px;
+  margin: 10px auto;
+}

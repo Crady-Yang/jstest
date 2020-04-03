@@ -1,0 +1,163 @@
+.menuContainer{
+    width:200px;
+}
+.mainContentContainer{
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 200px);
+}
+.menuBox{
+    width:220px;
+    background-color:#374653;
+    font-size:1rem;
+    line-height:1.2;
+    height:100%;
+}
+.metismenu.menu{
+    background-color:#374653;
+    padding-bottom:10px;
+}
+.menuBox .menu-top{
+    width:100%;
+}
+.menuBox .menu>li{
+    width:100%;
+    color:#a7b1c2 !important;
+    background-color: #374653;
+}
+.menuBox .menu>li:hover{
+    background-color:#293846;
+}
+.menuBox .menu>li>a{
+    width:100%;
+    padding:14px 20px 14px 25px;
+    display:block;
+    font-weight:600;
+
+}
+.menuBox .menu>li.active{
+    border-left:3px solid var(--main-l);
+    background-color:#293846;
+    color:#fff !important;
+}
+.menuBox .menu>li.active>a{
+    width:100%;
+    padding:14px 20px 14px 25px;
+    display:block;
+    font-weight:500;
+    color:#fff !important;
+}
+.menuBox .menu>li.active>a:hover{
+    color:#fff;
+}
+.menuBox .menu>li>a .fa{
+    /*padding-right:14px;*/
+}
+.menuBox .menu>li.active>a{
+    width:100%;
+    padding:14px 20px 14px 25px;
+    display:block;
+    font-weight:500;
+    color:#a7b1c2;
+
+}
+.menuBox .menu>li>a {
+    color:#a7b1c2 !important;
+}
+.menuBox .menu>li>ul>li>a{
+    width:100%;
+    padding: 7px 32px 7px 62px;
+    display:block;
+    color:#a7b1c2 !important;
+}
+.menuBox .menu>li>ul>li>ul>li>a{
+    width:100%;
+    padding: 7px 10px 7px 70px;
+    display:block;
+    color:#a7b1c2 !important;
+}
+.menuBox .menu>li>ul>li a:hover{
+    color:#fff !important;
+}
+.menuBox .menu>li>ul>li a:visited{
+    color:#a7b1c2;
+}
+/*----------------meunTop------------------*/
+.menu-top .portraitBox {
+    /*width: 200px;*/
+    /*text-align: center;*/
+    /*padding-top:30px;*/
+    padding: 30px 20px;
+}
+.menu-top .portrait {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    /*background-image: url('../../../resource/portrait.png');*/
+    /*background-size: contain;*/
+    background-position: center 0;
+    background-repeat:no-repeat;
+    border: 1px solid #fff;
+    margin: 0 auto;
+}
+.menu-top .userName {
+    /*width: calc(100% - 3rem);*/
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    height: 3rem;
+    line-height: 3rem;
+}
+.menu-top .subTitle{
+    font-weight:200;
+    font-size:1rem;
+    color:#efefef;
+    padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*------------------2017-2-20 by doris menuscroll-------------------------*/
+.menuListContainer{
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+/*---------------------qc task----------------------------*/
+.leftRoll, .rightRoll {
+    background-color: #e66d6d;
+    display: inline-block;
+    height: 16px;
+    vertical-align: middle;
+    width: 8px;
+}
+.noneAssign, .tranorTransTask {
+    background-color: #e66d6d;
+}
+.leftRoll {
+    border-radius: 8px 0 0 8px;
+    margin-left: 10px;
+}
+.rightRoll {
+    border-radius: 0 8px 8px 0;
+}
+.transTask {
+    background-color: #19aa8d;
+}
+.QCtask {
+    background-color: #e3ae67;
+}
+.transTask {
+    background-color: #19aa8d;
+}
+.alertNumber {
+
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 200;
+    height: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+}

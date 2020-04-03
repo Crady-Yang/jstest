@@ -1,0 +1,54 @@
+.k-grid-content td{
+  overflow: visible;
+  font-size: 14px;
+}
+.k-grid tbody td, .k-grid tbody th{
+  padding: 12px 12px;
+}
+.k-grid thead td, .k-grid thead th{
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 14px;
+}
+.k-grid td .k-i-none{
+  float: left;
+  display: none;
+}
+.k-grid td{
+  word-wrap: break-word;
+}
+.k-grid .k-grouping-row .k-icon{
+  margin: 0;
+}
+.k-grid .k-pager-wrap>.k-link>.k-icon{
+  margin-top: 0px;
+}
+.k-grid .k-grouping-row td{
+  border-bottom-width: 1px !important;
+}
+.k-filter-row th, .k-grid-header th.k-header{
+  text-transform: capitalize;
+}
+.k-pager-wrap .k-pager-numbers .k-state-selected{
+  margin-top: 0;
+  padding-top: 0;
+}
+.k-pager-numbers .k-link, .k-pager-numbers .k-state-selected{
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.7);
+}
+.k-drag-clue .k-button.k-bare, .k-group-indicator .k-button.k-bare{
+  margin-right: 4px;
+}
+.k-grid tbody td, .k-grid tbody th{
+  padding-left: 20px;
+}
+.k-grid .k-grouping-row p{
+  float: left;
+}
+.k-grid .k-grouping-row .k-icon{
+  padding-top: 20px;
+}
+.k-grid .groupHeader{
+  float: left;
+}

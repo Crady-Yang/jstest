@@ -1,0 +1,17 @@
+/*.k-tabstrip>.k-content{*/
+  /*padding: 20px 24px;*/
+/*}*/
+/*.k-tabstrip-left>.k-tabstrip-items .k-item::after{*/
+  /*border-bottom-width: 0px;*/
+/*}*/
+
+/*.k-window-content{*/
+  /*overflow-x: hidden;*/
+/*}*/
+
+.k-window .k-tabstrip-wrapper{
+  width: 95%;
+}
+.k-tabstrip-top>.k-tabstrip-items .k-item{
+    margin-bottom: -3px;
+}

@@ -1,0 +1,36 @@
+:root {
+    --main-h: #3f51b5;
+    --main-m: #f25807;
+    --main-l: #82b1ff;
+    --main-xl: #f5f9ff;
+    --sub-h: #6A4C9C;
+    --sub-l: #8A6BBE;
+    --sub-xl: #B28FCE;
+    --error-h: #ff4081;
+    --error-m: #fd809e;
+    --error-l: #fdcfda;
+    --error-xl: #fdebf0;
+    --bg-h: #ecf0f1;
+    --bg-m: #f2f5f6;
+    --bg-l: #fbfbfb;
+    --title-h: #2e3031;
+    --subTitle-h: #a4afbe;
+    --subTitle-m: #c0c7d3;
+    --subTitle-l: #e1e5ea;
+    --success-h: #35daa9;
+    --success-m: #67dca7;
+    --success-l: #92e6c1;
+    --warn-h: #fd9b40;
+    --warn-m: #fdb976;
+    --warn-l: #fecd9c;
+    --gray-h: #EE82EE;
+    --gray-m: #eeafe5;
+    --gray-l: #eebeed;
+    --tea-h: #008B8B;
+    --tea-m: #4fc0bf;
+    --tea-l: #9bd4d6;
+    --submit-m: #3f51b5;
+    --yellow: rgb(255,204,0);
+    --error-r: red;
+    --green-light:rgb(51,204,0);
+}

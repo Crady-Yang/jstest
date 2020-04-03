@@ -1,0 +1,192 @@
+.innerWrapper {
+    width: 18em;
+    height: 3.2em;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logButton {
+    width: 100%;
+}
+
+.imageCodeWrapper {
+    position: relative;
+}
+
+.code_img {
+    position: absolute;
+    right: 25px;
+    top: -0.5em;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+
+body, html {
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+    /*background-color: #ecf0f1;*/
+    clear: both;
+    padding-bottom: 0px;
+}
+
+.leftBox {
+    width: 40%;
+    float: left;
+    height: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+.rightBox {
+    width: 60%;
+    float: left;
+    background-image: url("/images/bg005.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+
+    .rightBox .textBox {
+        color: #fff;
+        padding-left: 30px;
+        padding-top: 40px;
+        position: absolute;
+        z-index: 1999;
+        bottom: 30px;
+        width: 60%;
+    }
+
+        .rightBox .textBox .text {
+            font-size: 12px;
+            font-weight: 200;
+            line-height: 22px;
+            display: block;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .rightBox .textBox .slogan {
+            font-size: 32px;
+            font-weight: 200;
+            margin: 0px;
+        }
+
+.loginBox {
+    height: 22em;
+    min-width: 20em;
+    width: 24%;
+    background-color: #fff;
+    color: var(--main-h);
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 228px;
+    position: absolute;
+    z-index: 0;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.infoBoxColorCover {
+    position: absolute;
+    z-index: 999;
+    /*background-color: var(--main-h);*/
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
+
+.logoBox {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 20px;
+    z-index: 10000;
+}
+
+    .logoBox img {
+        width: 100%;
+        display: block;
+    }
+
+.loginBox input {
+    width: calc(100% - 30px);
+    padding-left: 30px;
+}
+
+.inputIcon {
+    position: absolute;
+    left: 4px;
+    bottom: 20px;
+    color: var(--main-l);
+}
+
+.underText {
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 200;
+    color: var(--main-h);
+    opacity: 0.8;
+    padding: 10px 0px;
+}
+
+.linkBox {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+    .linkBox a {
+        text-decoration: none;
+    }
+
+.lw-form button {
+    cursor: pointer;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-size: 1em;
+    background-color: var(--error-h);
+    color: #fff;
+    border: 0px;
+    margin-top: 1em;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(197, 12, 12, 0.3);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(197, 12, 12, 0.3);
+    box-shadow: 0px 0px 20px 0px rgba(197, 12, 12, 0.3);
+}
+
+.leftFooter {
+    text-align: center;
+}
+
+.fa-exclamation-circle {
+    color: #ff0000;
+}
+
+.fa-check-circle {
+    color: #00ff00;
+}
+
+#confirmEmailBox .innerWrapper {
+    width: 24em;
+}

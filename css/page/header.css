@@ -1,0 +1,105 @@
+/* HEADER */
+.main-header {
+    max-height: 150px;
+    /*background: var(--main-h);*/
+    color: var(--main-h);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1)
+}
+.main-header .logo {
+    padding: 0;
+}
+.main-header .logo-lg {
+    background: url(images/logo.png) no-repeat 50% 50%;
+    height: 50px;
+}
+.main-header .logo-mini {
+    background: url(images/logo-mini.png) no-repeat 50% 50%;
+    height: 50px;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+    flex-direction:initial;
+
+}
+.navbar-nav>li {
+    float: left;
+    width: 100px;
+}
+.navbar-custom-menu > .navbar-nav > li {
+    height: 30px;
+    line-height: 30px;
+}
+.navbar-custom-menu > .navbar-nav > li a{
+   color: var(--main-h);
+    font-size: 12px;
+}
+.skin-blue .main-header .navbar {
+    background-color: #3c8dbc;
+}
+.main-header .navbar {
+    -webkit-transition: margin-left .3s ease-in-out;
+    -o-transition: margin-left .3s ease-in-out;
+    transition: margin-left .3s ease-in-out;
+    margin-bottom: 0;
+    /*margin-left: 230px;*/
+    border: none;
+    min-height: 50px;
+    border-radius: 0;
+}
+.main-header .navbar-custom-menu, .main-header .navbar-right {
+    float: right;
+}
+.navbar-custom-menu li.account-info {
+    line-height: 30px;
+    color: #fff;
+    padding: 0 15px;
+}
+#menuContainer{
+    padding: 0px!important;
+}
+.menuBox{
+    width: 100%!important;
+}
+.titleBox .parentTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #808080;
+    padding-right: 10px;
+    padding-left: 6px;
+}
+.titleBox .titleIcon {
+    padding-right: 10px;
+    border-right: 1px solid #efefef;
+    color: #808080;
+}
+.titleBox {
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px solid #efefef;
+    padding: 0 30px;
+    background-color: #eee;
+}
+.thirdHeaderBox {
+    padding: 2.2rem 2.2rem 1.6rem 2.2rem!important;
+}
+.thirdHeaderBox .colorBar {
+    height: 18px;
+    width: 2px;
+    background: var(--main-h);
+    background: -webkit-linear-gradient(to bottom, var(--main-h), var(--error-h));
+    background: linear-gradient(to bottom, var(--main-h), var(--error-h));
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.thirdHeaderBox .currentPath {
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: inherit;
+    text-transform: capitalize
+}
+.schoolSelectorBox {
+    margin-right: 20px;
+}

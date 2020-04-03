@@ -1,0 +1,49 @@
+.schoolBox{
+    margin: 10px 0px;
+}
+.userBox{
+    margin: 10px 0px;
+}
+.userBox .noData{
+    padding: 20px 0px;
+}
+.schoolTreeWrapper{
+    padding: 10px 0 30px 0px;
+}
+#schoolTreeList{
+    padding-bottom: 150px;
+    padding-left: 20px;
+}
+#schoolBox .panelHeader {
+    border-bottom: 1px solid #efefef;
+}
+.schoolTreeNode{
+    cursor:pointer
+}
+#schoolBox .panelHeader h3 {
+    border-bottom: none;
+}
+#schoolTreeList .treeMenu .k-i-arrow-60-down {
+    display: none;
+}
+#schoolTreeList .schoolTreeNode{
+    height: 22px;
+    line-height: 22px;
+}
+.refreshSchoolBtn{
+    margin: 10px;
+}
+.openAddSchool{
+    margin: 10px;
+}
+.schoolOperator .treeMenuBox .k-item[role="menuitem"] span.k-menu-link{
+    padding: 2px 6px !important;
+}
+/*#addUserWindow input[type="radio"]{
+    height:15px;
+    width:20px;
+    min-width:20px;
+}*/
+#openSendMsgWindow .form-item {
+    margin:20px 0;
+}
